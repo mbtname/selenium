@@ -14,3 +14,19 @@ driver.close()#关闭当前窗口
 driver.quit()#退出浏览器
 
 元素定位
+driver.find_element_by_id('~').send_keys("~~")#id
+driver.find_element_by_name('~').send_keys("~~")#name
+driver.find_element_by_class_name('~').send_keys("~~")#class
+driver.find_element_by_tag_name('~').send_keys("~~")#tag 标签
+driver.find_element_by_link_text('~').click()
+driver.find_element_by_partial_link_text().click()
+driver. find_element_by_xpath().send_keys()
+driver.find_element_by_css_selector()
+1.通过 id 定位： find_element_by_id()Selenium100 例（上海-悠悠）
+2.通过 name 定位： find_element_by_name()
+3.通过 class 定位： find_element_by_class_name()
+4.通过 tag 定位： find_element_by_tag_name()
+5.通过 link 定位： find_element_by_link_text()
+6.通过 partial_link 定位： find_element_by_partial_link_text()
+7.通过 xpath 定位： find_element_by_xpath()
+8.通过 css 定位： find_element_by_css_selector()
